@@ -1,4 +1,5 @@
 <?
+include($_SERVER['DOCUMENT_ROOT'] . "/engine/system/helpers.php");
 header('Content-Type: text/html; charset=utf-8');
 ?>
 <!DOCTYPE html>
@@ -44,8 +45,8 @@ header('Content-Type: text/html; charset=utf-8');
 
     <hr/>
 
-    Использование оперативной памяти: <?= memory_get_usage() ?> б<br/>
-    Пиковое значение использования оперативной памяти: <?= memory_get_peak_usage() ?> б
+    Использование оперативной памяти: <?= to_bytes(memory_get_usage()) ?><br/>
+    Пиковое значение использования оперативной памяти: <?= to_bytes(memory_get_peak_usage()) ?>
 </div>
 
 </body>
