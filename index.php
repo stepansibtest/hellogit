@@ -36,7 +36,7 @@ header('Content-Type: text/html; charset=utf-8');
 
     <div class="well">
         <input type="text" name="name" value="" placeholder="Type a new name here"/>
-        <a href="#" class="btn say-hello">Say hello!</a>
+        <a href="#" class="btn say-hello"><i class="icon-comment">&nbsp;</i>&nbsp;Say hello!</a>
     </div>
 </div>
 
