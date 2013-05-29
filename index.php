@@ -46,8 +46,6 @@ header('Content-Type: text/html; charset=utf-8');
 
     Использование оперативной памяти: <?= memory_get_usage() ?> б<br/>
     Пиковое значение использования оперативной памяти: <?= memory_get_peak_usage() ?> б
-
-
 </div>
 
 </body>
