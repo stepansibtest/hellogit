@@ -50,6 +50,7 @@ header('Content-Type: text/html; charset=utf-8');
     Пиковое значение использования оперативной памяти: <?= to_bytes(memory_get_peak_usage()) ?>
 
     <br/> Path2: Some changes...
+    <br/> Path2: Some changes 2...
     </span>
 </div>
 
