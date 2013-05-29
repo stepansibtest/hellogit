@@ -13,6 +13,7 @@ header('Content-Type: text/html; charset=utf-8');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/css/helpers.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css?nocache=<?= mt_rand() ?>" media="all"/>
 
     <script src="/js/jquery-1.9.1.min.js"></script>
@@ -34,10 +35,19 @@ header('Content-Type: text/html; charset=utf-8');
         Today is <?=date("d/m/Y")?> and i'm still learninng Git
     </div>
 
-    <div class="well">
+    <div class="well margin-bottom-10">
         <input type="text" name="name" value="" placeholder="Type a new name here"/>
         <a href="#" class="btn say-hello"><i class="icon-comment">&nbsp;</i>&nbsp;Say hello!</a>
     </div>
+
+    <div class="cleaner">&nbsp;</div>
+
+    <hr/>
+
+    Использование оперативной памяти: <?= memory_get_usage() ?> б<br/>
+    Пиковое значение использования оперативной памяти: <?= memory_get_peak_usage() ?> б
+
+
 </div>
 
 </body>
