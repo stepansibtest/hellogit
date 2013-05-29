@@ -45,8 +45,10 @@ header('Content-Type: text/html; charset=utf-8');
 
     <hr/>
 
+    <span class="silver">
     Использование оперативной памяти: <?= to_bytes(memory_get_usage()) ?><br/>
     Пиковое значение использования оперативной памяти: <?= to_bytes(memory_get_peak_usage()) ?>
+    </span>
 </div>
 
 </body>
