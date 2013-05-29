@@ -1,0 +1,22 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 20px;
+}
+
+div.main {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.greetings {
+    margin-bottom: 30px;
+}
+
+.say-hello {
+    position: relative;
+    top: -5px;
+}
