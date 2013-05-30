@@ -1,4 +1,5 @@
-hellogit
+HelloGit
+
 ========
 
-Learning Git
+I'm still learning Git...
